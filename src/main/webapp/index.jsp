@@ -61,7 +61,7 @@
     <div class="container">
         <div class="logo">🛡️</div>
         <h1>Insured Assurance</h1>
-        <p class="tagline">Your Trusted Partner in Protection</p>
+        <p class="tagline">Your Trusted Partner in Protection | Version 2.0 🚀</p>
         
         <div class="services">
             <div class="service-card">
@@ -86,9 +86,11 @@
             <h2>🚀 Deployment Status</h2>
             <div class="status-badge">✅ Successfully Deployed</div>
             <p style="margin-top: 15px;">
+                <strong>Version:</strong> 2.0 - CI/CD Active<br>
                 <strong>Build Date:</strong> <%= new java.util.Date() %><br>
-                <strong>Pipeline:</strong> GitHub Actions + Jenkins<br>
-                <strong>Server:</strong> Apache Tomcat 9
+                <strong>Pipeline:</strong> GitHub Actions ➜ Jenkins ➜ Tomcat<br>
+                <strong>Server:</strong> Apache Tomcat 9.0.65<br>
+                <strong>Authentication:</strong> SSH Key 🔐
             </p>
         </div>
     </div>
