@@ -48,7 +48,7 @@ jobs:
       run: |
         echo "Triggering Jenkins job: TomcatDeployment"
         curl -X POST \
-          http://${{ secrets.HOST }}:8082/job/TomcatDeployment/build \
+          http://${{ secrets.HOST }}:8080/job/TomcatDeployment/build \
           --user admin:${{ secrets.JENKINS_TOKEN }}
         
         echo "Waiting for deployment..."
