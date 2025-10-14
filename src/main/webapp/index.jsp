@@ -86,7 +86,7 @@
             <h2>🚀 Deployment Status</h2>
             <div class="status-badge">✅ Successfully Deployed</div>
             <p style="margin-top: 15px;">
-                <strong>Version:</strong> 3.0 - Public IP Configured 🌐<br>
+                <strong>Version:</strong> 4.0 - Tar Installed ✅<br>
                 <strong>Build Date:</strong> <%= new java.util.Date() %><br>
                 <strong>Pipeline:</strong> GitHub Actions ➜ Jenkins ➜ Tomcat<br>
                 <strong>Server:</strong> Apache Tomcat 9.0.65<br>
